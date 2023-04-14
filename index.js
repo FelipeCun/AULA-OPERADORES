@@ -22,14 +22,39 @@ console.log("A temperatura em °C é: " + temper3);
 //Exercício 2:
 
 //A
+/*
 let valorConta = parseFloat(prompt("Quantos quilowatt-hora você utilizou neste mês? "));
 let valorWatt = 0.05;
 
 alert("Você já gastou R$ " + valorConta * valorWatt + " de luz elétrica neste mês.");
+*/
 
 //B
+/*
 let quantWatts = parseFloat(prompt("Quantos quilowatt-hora você utilizou neste mês? "));
+let valorWatt = 0.05;
 let somaValor = quantWatts * valorWatt
+let percent = (quantWatts * valorWatt) * 0.85;
+
+alert("Você já gastou R$ " + quantWatts * valorWatt + " de luz elétrica neste mês." + "\nE terá um desconto de 15% devido ao seu cadastro positivo." +" \nSua conta de luz agora é de: " + percent + ".");
+*/
+
+//Execício 3:
+
+prompt("Digite seu nome: ");
+
+let resultado1 = parseFloat(prompt("Digite sua nota: "));
+let resultado2 = parseFloat(prompt("Digite sua nota: "));
+let resultado3 = parseFloat(prompt("Digite sua nota: "));
+
+let somaNotas = (resultado1 + resultado2 + resultado3) / 3;
+
+mediaAprovar = somaNotas >= 6;
 
 
-alert("Você já gastou R$ " + quantWatts * valorWatt + " de luz elétrica neste mês." + "\nE teve um ");
+console.log("Sua média de notas foi: " + somaNotas + ". Você foi aprovado? " + mediaAprovar);
+
+
+
+
+
